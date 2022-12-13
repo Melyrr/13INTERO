@@ -6,21 +6,15 @@ public class TriminimaSuccesif {
             int minIndex = searchMinIndex(myArray, i, myArray.length -1);
             if (minIndex != i) {
             swap(myArray, i, minIndex);
-                }
-            }
-        }
+                }}}
         public static int searchMinIndex(int[] myArray,int begin,int end) {
         int minIndex = begin;
         for (int i = begin + 1; i <= end; i++) {
             if (myArray[i] < myArray[minIndex]) {
                 minIndex = i;
-            }
-        }
-        return minIndex;
-    }
+            }}
+        return minIndex;}
     private static void swap(int[] myArray, int pos1, int pos2) {
         int value = myArray[pos1];
         myArray[pos1] = myArray[pos2];
-        myArray[pos2] = value;
-    }
-}
+        myArray[pos2] = value;}}

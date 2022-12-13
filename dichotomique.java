@@ -1,8 +1,5 @@
 public class dichotomique {
-    //La recherche dichotomique est un algorithme de recherche d’une valeur dans un tableau trié.
-    public static void main(String[] args) {
-        
-    }
+    public static void main(String[] args) {}
     public static int binarySearch(int[] myArray, int value){
         int leftIndex = 0;
         int medianIndex = -1;
@@ -17,13 +14,9 @@ public class dichotomique {
             } else if (value < candidate){
                 rightIndex = medianIndex - 1;
             } else {
-                leftIndex = medianIndex + 1;
-            }
-        }
+                leftIndex = medianIndex + 1;}}
         if (isFound){
             return medianIndex;
         } else {
             return -1;
-        }
-    }
-}
+        }}}
