@@ -1,0 +1,26 @@
+l’écriture d’une solution :
+
+1. spécifier le problème 
+2. fournir des exemples 
+3. écrire un algorithme 
+4. vérifier les exemples (en traçant l’algorithme) 
+5. écrire un programme exécutable correspondant à l’algorithme 
+6. tester le programme et constater qu’il fournit bien les résultats attendus.
+
+la déclaration qui consiste à signaler qu’une variable est un tableau.
+Cette déclaration a pour effet de réserver un emplacement mémoire qui contiendra une référence vers les cases du tableau
+int[] myArray;
+
+
+La création du tableau consiste a réserver l’emplacement mémoire qui contiendra les différentes valeurs.
+Pour le créer, il faut connaitre sa taille.
+myArray = new int[10];
+
+
+L’initialisation du tableau consiste à donner ses premières valeurs aux différents
+éléments du tableau.
+myArray[0] = 5;
+
+
+taille physique d’un tableau est le nombre de cases qu’il contient. Sa taille
+logique est le nombre de cases actuellement utilisées.
